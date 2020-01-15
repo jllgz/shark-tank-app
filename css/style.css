@@ -3380,3 +3380,47 @@ a.close-styler{
 .white {
 	color: white !important;
 }
+
+.know-us {
+	max-width: 400px;
+	max-height: 400px;
+}
+
+#register {
+	color: #EE3B24;
+}
+
+#register:hover {
+	color: #000000;
+	text-decoration: underline;
+	font-size: 1.5rem;
+	transition: .2s ease-in-out;
+}
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+#progressbar {
+	background-color: #555;
+	border-radius: 13px;
+	/* (height of inner div) / 2 + padding */
+	padding: 3px;
+  }
+  
+  #progressbar>div {
+	background-color: #EE3B24;
+	height: 20px;
+	border-radius: 10px;
+  }
+
+  .no-margin-right {
+	  margin-left:  0rem !important;
+  }
