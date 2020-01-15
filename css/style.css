@@ -3424,3 +3424,8 @@ a.close-styler{
   .no-margin-right {
 	  margin-left:  0rem !important;
   }
+
+  .port-img {
+	  max-height: 350px !important;
+	  max-width: 600px !important;
+  }
