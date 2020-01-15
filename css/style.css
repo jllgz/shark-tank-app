@@ -2323,6 +2323,9 @@ figure.effect-oscar:hover img {
 
 .footer-logo{
 	margin-bottom: 20px;
+	display: flex !important;
+	justify-content: center !important;
+	color: white !important;
 }
 
 .footer-map{
@@ -3365,4 +3368,15 @@ a.close-styler{
 
 .style-switch-wrapper #preset6 {
 	background-color: #8C42BA;
+}
+
+#title-logo {
+	color: #333333;
+	display: flex;
+	justify-content: flex-start;
+	justify-items: center;
+}
+
+.white {
+	color: white !important;
 }
