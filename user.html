@@ -59,185 +59,60 @@
 
 <body>
 	<div class="body-inner">
-		<!-- Header start -->
-		<header id="header" class="navbar-fixed-top header4" role="banner">
-			<div class="container">
-				<div class="row">
-					<!-- Logo start -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse"
-							data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<div class="navbar-brand">
-							<a href="index.html" id="title-logo">
-								<img src="img/career.svg" height="70px" width="70px">
-								<h2 id="title-logo">Career From Here </h2>
-							</a>
+
+<!-- Header start -->
+<header id="header" class="navbar-fixed-top header4" role="banner">
+	<div class="container">
+		<div class="row">
+			<!-- Logo start -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand">
+					<a href="user.html" id="title-logo">
+						<img src="img/career.svg" height="70px" width="70px">
+						<h2 id="title-logo">Career From Here </h2>
+					</a>
+				</div>
+			</div>
+			<!--/ Logo end -->
+			<nav class="collapse navbar-collapse clearfix" role="navigation">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="user.html">Home</a>
+					</li>
+					<li>
+						<a href="career-test.html">Career Test</a>
+					</li>
+					<li>
+						<a href="news.html">News</a>
+					</li>
+					<li><a href="user-contact.html">Contact</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome Back Joe!<i
+								class="fa fa-angle-down"></i></a>
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="result.html">Career Path</a></li>
+								<li><a href="user-registration.html">Register</a></li>
+								<li><a id="logout">Log Out</a></li>
+							</ul>
 						</div>
-					</div>
-					<!--/ Logo end -->
-					<nav class="collapse navbar-collapse clearfix" role="navigation">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active">
-								<a href="index.html">Home</a>
-							</li>
-							<li class="dropdown">
-								<a href="news.html">News</a>
-							</li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="registration.html" id="register">[Register]</a></li>
-							<li><a id="login" data-toggle="modal" data-target="#exampleModal"><u>(Login)</u></a></li>
-						</ul>
-					</nav>
-					<!--/ Navigation end -->
-				</div>
-				<!--/ Row end -->
-			</div>
-			<!--/ Container end -->
-		</header>
-		<!--/ Header end -->
-
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-			aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Log in</h5>
-					</div>
-					<div class="modal-body">
-						<section id="main-container">
-
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="row">
-											<div class="col-md-12 heading text-center">
-												<img src="img/career.svg" height="100px" width="100px">
-												<h1 class="title2">Career From Here</h1>
-											</div>
-										</div> <!-- Title row end -->
-									</div>
-								</div>
-									<div class="row">
-										<div class="col-md-12">
-											<form id="contact-form" action="contact-form.php" method="post" role="form">
-												<div class="row">
-													<div class="col-md-12">
-														<div class="form-group" id="form_id" method="post"
-															name="myform">
-															<label>Username</label>
-															<input class="form-control" name="username" id="username"
-																placeholder="" type="text">
-															<div id="user-error"></div>
-														</div>
-													</div>
-													<div class="col-md-12">
-														<div class="form-group">
-															<label>Password</label>
-															<input class="form-control" type="password" name="password"
-																id="password" placeholder="">
-															<div id="pass-error"></div>
-														</div>
-													</div>
-													<div class="col-md-12 login-btn">
-														<a class="btn btn-primary solid blank" id="submit"
-															onclick="validate()">Log In</a>
-														<br>
-														<a type="button" class="btn btn-primary"
-															data-dismiss="modal">Cancel</a>
-
-													</div>
-												</div>
-											</form>
-										</div>
-
-									</div>
-
-								</div>
-								<!--/ container end -->
-							</div>
-						</section>
-						<!--/ Main container end -->
-					</div>
-
-				</div>
-			</div>
+					</li>
+				</ul>
+			</nav>
+			<!--/ Navigation end -->
 		</div>
-
-
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-			aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Log in</h5>
-					</div>
-					<div class="modal-body">
-						<section id="main-container">
-
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="row">
-											<div class="col-md-12 heading text-center">
-												<img src="img/career.svg" height="100px" width="100px">
-												<h1 class="title2">Career From Here</h1>
-											</div>
-										</div> <!-- Title row end -->
-									</div>
-
-									<div class="row">
-										<div class="col-md-12">
-											<form id="contact-form" action="contact-form.php" method="post" role="form">
-												<div class="row">
-													<div class="col-md-12">
-														<div class="form-group" id="form_id" method="post"
-															name="myform">
-															<label>Username</label>
-															<input class="form-control" name="username" id="username"
-																placeholder="" type="text">
-															<div id="user-error"></div>
-														</div>
-													</div>
-													<div class="col-md-12">
-														<div class="form-group">
-															<label>Password</label>
-															<input class="form-control" type="password" name="password"
-																id="password" placeholder="">
-															<div id="pass-error"></div>
-														</div>
-													</div>
-													<div class="col-md-12 login-btn">
-														<a class="btn btn-primary solid blank" id="submit"
-															onclick="validate()">Log In</a>
-														<br>
-														<a type="button" class="btn btn-primary"
-															data-dismiss="modal">Cancel</a>
-
-													</div>
-												</div>
-											</form>
-										</div>
-
-									</div>
-
-								</div>
-								<!--/ container end -->
-
-						</section>
-						<!--/ Main container end -->
-					</div>
-
-				</div>
-			</div>
-		</div>
-
+		<!--/ Row end -->
+	</div>
+	<!--/ Container end -->
+</header>
+<!--/ Header end -->
 
 		<!-- Slider start -->
 		<section id="home" class="no-padding">
@@ -268,6 +143,10 @@
 								<h3 class="animated6">
 									Love what you do and never have to work a day in your life
 								</h3>
+								<h3 class="animated4">
+									<a href="portfolio-static.html" class="btn btn-primary solid">Take our career
+										test</a>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -283,6 +162,8 @@
 								<h3 class="animated5">
 									Love what you do and never have to work a day in your life
 								</h3>
+								<p class="animated6"><a href="#" class="btn btn-primary solid">Take our career test</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -298,6 +179,8 @@
 								<h3 class="animated8">
 									Love what you do and never have to work a day in your life
 								</h3>
+								<p class="animated6"><a href="#" class="btn btn-primary solid">Take our career test</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -321,6 +204,7 @@
 					<div class="col-sm-12">
 						<h3>Start your career in the right path!</h3>
 						<a href="registration.html" class="pull-right btn btn-primary solid">Register now</a>
+						<a href="about.html" class="pull-right btn btn-primary white">Career Test</a>
 					</div>
 				</div>
 			</div>
@@ -371,7 +255,6 @@
 		</section>
 		<!--/ Features end -->
 
-
 		<!-- Portfolio start -->
 		<section id="portfolio" class="portfolio portfolio-box">
 			<div class="container">
@@ -391,7 +274,7 @@
 								<a class="animated fadeIn" href="#tab_a" data-toggle="tab">
 									<span class="tab-icon"><i class="fa fa-bank"></i></span>
 									<div class="tab-info">
-										<h3>Who we are</h3>
+										<h3>Who are we</h3>
 									</div>
 								</a>
 							</li>
@@ -647,9 +530,8 @@
 							<span class="feature-icon pull-left"><i class="fa fa-diamond"></i></span>
 							<div class="feature-content">
 								<h3>Amazing Features</h3>
-								<p>We equipt our VR Job Shadowing with plenty of intaractive features to increase the
-									job
-									visualization experience</p>
+								<p>We equipt our VR Job Shawoing with plenty of intaractive features to increase the job
+									visualizationexperience</p>
 							</div>
 
 						</div>
@@ -672,8 +554,8 @@
 						<h3>Don't beat around the bush and register now!</h3>
 
 						<p>
-							<a href="registration.html" class="btn btn-primary solid">Register now</a>
-							<a href="contact.html" class="btn btn-primary white">Get In Touch</a>
+							<a href="#" class="btn btn-primary solid">Register now</a>
+							<a href="#" class="btn btn-primary white">Get In Touch</a>
 						</p>
 					</div>
 				</div>
@@ -703,6 +585,13 @@
 							<div class="team-content">
 								<h3>Joshua Micheals</h3>
 								<p>CEO/Founder</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -717,6 +606,13 @@
 							<div class="team-content">
 								<h3>Corin Walls</h3>
 								<p>Web Designer</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -731,6 +627,13 @@
 							<div class="team-content">
 								<h3>Richard Mitchell</h3>
 								<p>Web Designer</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -745,6 +648,13 @@
 							<div class="team-content">
 								<h3>Roderick Love</h3>
 								<p>Web Designer</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -763,6 +673,13 @@
 							<div class="team-content">
 								<h3>Maria Moreno</h3>
 								<p>CEO/Founder</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -777,6 +694,13 @@
 							<div class="team-content">
 								<h3>Cassandra Pamplona</h3>
 								<p>Back-End Developer</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -791,6 +715,13 @@
 							<div class="team-content">
 								<h3>Arisabeth Simphoukham</h3>
 								<p>Front-End Developer</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -805,6 +736,13 @@
 							<div class="team-content">
 								<h3>Joseph Obligar</h3>
 								<p>Front-End Developer</p>
+								<div class="team-social">
+									<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+									<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+									<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+									<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -3429,3 +3429,16 @@ a.close-styler{
 	  max-height: 350px !important;
 	  max-width: 600px !important;
   }
+
+  .login-btn{
+	  display: flex;
+	flex-direction: column;
+  }
+
+  .message {
+	  padding-top: 2.3rem;
+	  font-size: 1.8rem;
+	  color: #000000;
+	  text-decoration: underline;
+	  font-weight: bold;
+  }
