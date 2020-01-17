@@ -3387,11 +3387,11 @@ a.close-styler{
 }
 
 #register {
-	color: #EE3B24;
+	color: #000000;
 }
 
 #register:hover {
-	color: #000000;
+	color: #EE3B24;
 	text-decoration: underline;
 	font-size: 1.5rem;
 	transition: .2s ease-in-out;
@@ -3441,4 +3441,8 @@ a.close-styler{
 	  color: #000000;
 	  text-decoration: underline;
 	  font-weight: bold;
+  }
+
+  .vr-img {
+	  height: 100px !important;
   }
